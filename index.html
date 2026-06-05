@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diagnosi IA - Centre Educatiu</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-top">
+        <h1 class="header-titol">Diagnosi d'ús de la IA al centre educatiu</h1>
+        <button class="btn btn-outline btn-sm" id="btnReiniciar" title="Reiniciar totes les dades">Reiniciar</button>
+      </div>
+      <div class="progress-wrapper">
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progressBarFill"></div>
+        </div>
+        <span class="progress-text" id="progressText">0 / 40 respostes</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="tabs" id="tabsNav">
+    <div class="container tabs-container">
+      <button class="tab active" data-tab="diagnosi">Diagnosi</button>
+      <button class="tab" data-tab="analisi">Anàlisi de millora</button>
+      <button class="tab" data-tab="exporta">Exporta resultats</button>
+    </div>
+  </nav>
+
+  <div class="app-layout">
+    <aside class="sidebar" id="ambitNav"></aside>
+    <main class="content">
+      <section id="tab-diagnosi" class="tab-content active">
+        <div id="diagnosiContainer"></div>
+      </section>
+
+      <section id="tab-analisi" class="tab-content">
+        <div id="analisiContainer"></div>
+      </section>
+
+      <section id="tab-exporta" class="tab-content">
+        <div class="dades-centre">
+          <h2>Dades del centre</h2>
+          <div class="dades-centre-camps">
+            <div class="camp">
+              <label for="centreNom">Nom del centre</label>
+              <input type="text" id="centreNom" placeholder="Ex: Institut Joanot Martorell">
+            </div>
+            <div class="camp">
+              <label for="centrePersona">Persona que elabora l'informe</label>
+              <input type="text" id="centrePersona" placeholder="Ex: Maria Puig">
+            </div>
+          </div>
+        </div>
+
+        <div class="changelog-section">
+          <div class="changelog-header">
+            <h2>Full de canvis</h2>
+            <button class="btn btn-outline-primary btn-sm" id="btnNovaEntrada">+ Nova entrada</button>
+          </div>
+          <div class="changelog-desc" id="changelogDescContainer" style="display:none">
+            <div class="camp">
+              <label for="changelogDesc">Descripció dels canvis</label>
+              <textarea id="changelogDesc" placeholder="Ex: S'ha actualitzat l'anàlisi de millora..."></textarea>
+            </div>
+            <button class="btn btn-primary btn-sm" id="btnGuardarEntrada">Guardar entrada</button>
+            <button class="btn btn-sm" id="btnCancelarEntrada">Cancel·lar</button>
+          </div>
+          <div id="changelogTableContainer"></div>
+        </div>
+
+        <div class="export-card">
+          <h2>Exporta resultats</h2>
+          <p>Descarrega l'informe complet de diagnosi amb totes les respostes i les propostes de millora.</p>
+          <div class="export-buttons">
+            <button class="btn btn-primary" id="btnExportCSV">
+              <span class="btn-icon">📄</span>
+              Exportar a CSV
+            </button>
+            <button class="btn btn-primary" id="btnExportPDF">
+              <span class="btn-icon">📕</span>
+              Exportar a PDF
+            </button>
+          </div>
+          <p class="export-nota">Les dades es generen a partir de les respostes desades al navegador.</p>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Eina de diagnosi per a centres educatius</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.3/jspdf.plugin.autotable.min.js"></script>
+  <script src="storage.js"></script>
+  <script src="main.js"></script>
+  <script src="export.js"></script>
+</body>
+</html>

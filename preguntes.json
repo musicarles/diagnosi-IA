@@ -1,0 +1,200 @@
+{
+  "ambits": [
+    {
+      "id": "practica_docent",
+      "titol": "Pràctica docent amb IA",
+      "preguntes": [
+        {
+          "id": "pd_01",
+          "text": "El professorat utilitza eines d'IA per generar materials didàctics (activitats, textos, exemples o recursos per a l'aula)."
+        },
+        {
+          "id": "pd_02",
+          "text": "El professorat utilitza eines d'IA per adaptar activitats o explicacions a diferents nivells de l'alumnat dins d'un mateix grup."
+        },
+        {
+          "id": "pd_03",
+          "text": "El professorat utilitza IA per revisar, corregir o millorar produccions de l'alumnat."
+        },
+        {
+          "id": "pd_04",
+          "text": "El professorat utilitza IA com a suport en la planificació de situacions d'aprenentatge."
+        },
+        {
+          "id": "pd_05",
+          "text": "El professorat revisa, edita o adapta el contingut generat per IA abans d'utilitzar-lo amb l'alumnat."
+        },
+        {
+          "id": "pd_06",
+          "text": "El professorat identifica errors, biaixos o limitacions en les respostes generades per sistemes d'IA abans d'utilitzar-les."
+        },
+        {
+          "id": "pd_07",
+          "text": "El professorat comparteix amb altres docents experiències, exemples o pràctiques d'ús d'IA educativa."
+        }
+      ]
+    },
+    {
+      "id": "us_alumnat",
+      "titol": "Ús de l'alumnat",
+      "preguntes": [
+        {
+          "id": "ua_01",
+          "text": "L'alumnat utilitza eines d'IA per elaborar o completar tasques assignades pel professorat."
+        },
+        {
+          "id": "ua_02",
+          "text": "L'alumnat utilitza eines d'IA durant activitats d'aprenentatge dins de l'aula amb supervisió docent."
+        },
+        {
+          "id": "ua_03",
+          "text": "L'alumnat utilitza eines d'IA de manera autònoma fora de l'aula per fer tasques."
+        },
+        {
+          "id": "ua_04",
+          "text": "L'alumnat utilitza IA per resumir, simplificar o explicar continguts treballats a classe."
+        },
+        {
+          "id": "ua_05",
+          "text": "L'alumnat utilitza IA per generar textos, presentacions o altres produccions."
+        },
+        {
+          "id": "ua_06",
+          "text": "L'alumnat utilitza IA com a suport per resoldre problemes o activitats."
+        },
+        {
+          "id": "ua_07",
+          "text": "L'alumnat contrasta, revisa o verifica la informació generada per eines d'IA abans de donar-la per vàlida."
+        },
+        {
+          "id": "ua_08",
+          "text": "L'alumnat rep orientació explícita per part del professorat sobre com utilitzar la IA de manera crítica i responsable."
+        }
+      ]
+    },
+    {
+      "id": "transformacio_pedagogica",
+      "titol": "Transformació pedagògica",
+      "preguntes": [
+        {
+          "id": "tp_01",
+          "text": "S'han modificat activitats o tasques d'aprenentatge del centre a causa de la incorporació de la IA."
+        },
+        {
+          "id": "tp_02",
+          "text": "S'han dissenyat noves activitats específiques que incorporen explícitament l'ús d'eines d'IA."
+        },
+        {
+          "id": "tp_03",
+          "text": "S'han adaptat, eliminat o substituït activitats per reduir usos inadequats o poc significatius de la IA."
+        },
+        {
+          "id": "tp_04",
+          "text": "S'han incorporat activitats específiques per desenvolupar el pensament crític sobre la informació generada per IA."
+        },
+        {
+          "id": "tp_05",
+          "text": "S'han revisat o modificat criteris d'avaluació a causa de la incorporació de la IA en les activitats d'aprenentatge."
+        },
+        {
+          "id": "tp_06",
+          "text": "S'han dut a terme activitats específiques per ensenyar a l'alumnat a verificar o contrastar resultats generats per IA."
+        },
+        {
+          "id": "tp_07",
+          "text": "S'han treballat explícitament amb l'alumnat els límits, riscos i errors possibles dels sistemes d'IA."
+        }
+      ]
+    },
+    {
+      "id": "avaluacio",
+      "titol": "Avaluació",
+      "preguntes": [
+        {
+          "id": "av_01",
+          "text": "El centre ha revisat els criteris d'avaluació per adaptar-los a l'ús d'eines d'IA en les activitats."
+        },
+        {
+          "id": "av_02",
+          "text": "Els criteris d'avaluació tenen en compte explícitament el procés d'elaboració i no només el producte final."
+        },
+        {
+          "id": "av_03",
+          "text": "L'ús d'eines d'IA per part de l'alumnat es considera explícitament en la valoració de les activitats."
+        },
+        {
+          "id": "av_04",
+          "text": "El professorat disposa d'orientacions compartides sobre com avaluar activitats en què s'ha utilitzat IA."
+        },
+        {
+          "id": "av_05",
+          "text": "S'han adaptat instruments d'avaluació (rúbriques, proves o tasques) a la presència d'eines d'IA."
+        },
+        {
+          "id": "av_06",
+          "text": "S'inclou l'autoreflexió de l'alumnat sobre l'ús d'IA dins del procés d'avaluació."
+        }
+      ]
+    },
+    {
+      "id": "etica_privacitat",
+      "titol": "Ètica i privacitat",
+      "preguntes": [
+        {
+          "id": "ep_01",
+          "text": "El centre disposa de criteris o orientacions per garantir un ús responsable de les eines d'IA."
+        },
+        {
+          "id": "ep_02",
+          "text": "El centre treballa amb l'alumnat aspectes relacionats amb la privacitat i protecció de dades en l'ús d'IA."
+        },
+        {
+          "id": "ep_03",
+          "text": "Les eines d'IA utilitzades al centre són revisades o validades abans de ser introduïdes en context educatiu."
+        },
+        {
+          "id": "ep_04",
+          "text": "El professorat coneix els principals riscos associats a l'ús de sistemes d'IA (errors, biaixos, privacitat)."
+        },
+        {
+          "id": "ep_05",
+          "text": "El centre estableix limitacions o restriccions sobre l'ús d'eines d'IA no autoritzades."
+        },
+        {
+          "id": "ep_06",
+          "text": "El centre promou explícitament un ús segur, ètic i responsable de les eines d'IA."
+        }
+      ]
+    },
+    {
+      "id": "organitzacio_centre",
+      "titol": "Organització del centre",
+      "preguntes": [
+        {
+          "id": "oc_01",
+          "text": "El centre disposa d'una estratègia o línia de treball explícita sobre la incorporació de la IA."
+        },
+        {
+          "id": "oc_02",
+          "text": "L'ús de la IA està recollit o integrat en els documents del centre."
+        },
+        {
+          "id": "oc_03",
+          "text": "El professorat del centre rep formació específica o orientació sobre l'ús educatiu de la IA."
+        },
+        {
+          "id": "oc_04",
+          "text": "El centre disposa de criteris compartits sobre l'ús de la IA per part del professorat i l'alumnat."
+        },
+        {
+          "id": "oc_05",
+          "text": "Hi ha una persona, equip o referent que coordina o orienta l'ús de la IA al centre."
+        },
+        {
+          "id": "oc_06",
+          "text": "El centre comparteix de manera sistemàtica bones pràctiques sobre l'ús de la IA entre el professorat."
+        }
+      ]
+    }
+  ]
+}
